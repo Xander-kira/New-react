@@ -1,0 +1,81 @@
+#root {
+  
+  margin: 0 ;
+  padding: none;
+  list-style: none;
+}
+
+body{
+  background-image: url(assets/green.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.control-row{
+  width: 600px;
+  height: 290px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 150px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter:blur(12px) ;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  color: white;
+  
+  
+}
+.bel{
+display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.put{
+  padding: 20px;
+  border-radius: 5px;
+  border: 0;
+  width: 400px;
+  margin-bottom:10px ;
+}
+.put:hover{
+  background-color: beige;
+}
+
+
+.control-row, label{
+  margin-bottom: 10px;
+  font-weight: bold;
+
+}
+.forms h1{
+  text-align: center;
+  letter-spacing: 20px;
+  font-size: 48px;
+  position: relative;
+  top: 110px;
+  color: black;
+}
+.togs{
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 60px;
+  
+  
+}
+button{
+  padding: 13px;
+  border-radius: 3px;
+  color: black;
+  font-weight: bold;
+  border: 0;
+cursor: pointer;
+}
+button:hover{
+  background-color: bisque;
+}
